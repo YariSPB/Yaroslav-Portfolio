@@ -1,24 +1,55 @@
+body { 
+    padding-top: 70px; 
+    text-align: center;
+}
 
-.tenp{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top:5%
+h1, h2{
+    font-family: 'Ledger', serif;
 }
-.navb{
-  margin-left: 10%;
-  margin-right: 10%;
+#meId {
+   font-size: 16px; 
 }
-.padtp{
-  padding:7px 0px 5px 0px;
+p{
+  font-family: 'Merriweather', serif;  
 }
-.butt{
-  margin: 0px 1px 0px 1px;
+ul{
+    margin-left: 140px;
 }
+li{
+    text-align: left;
+    font-family: 'Merriweather', serif;  
+}
+.container{
+width:960px;
+text-align: center;   
+}
+.navbar{
+   #width:960px; 
+    
+}
+
 .imag{
   border-radius: 5%;
-  margin: 20px 0px 10px 0px;
+  #margin: 20px 0px 10px 0px;
 }
- h3 {
-  font-family:;
-  text-align: right;
-} 
+.thumbnail img{
+    border: 2px solid grey;
+    
+}
+.thumbnail p{
+    text-indent: 30px;
+    text-align: left; 
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    #font-weight: bold !important;
+}
+#thumby{
+    @color: dodgerblue!important;
+    font-size: 16px
+}
+
+#postDate{
+    text-align: right;
+    color: darkgrey;
+}
