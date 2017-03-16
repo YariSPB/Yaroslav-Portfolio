@@ -15,9 +15,9 @@
   
 </head>
 
-<body>
+<body background="images/fon1.jpg">
     
- <div class="container "> 
+ <div class="container conMain"> 
      <div class="row">
          <nav class="navbar navbar-default navbar-fixed-top">
               <div class="container">
@@ -26,7 +26,7 @@
                   <p class="navbar-text">y.paslavskiy@gmail.com</p>
                     <p class="navbar-text">+7 (953) 377 02 35</p>
 
-                <a href="http://vk.com/share.php?url=https://yarispb.github.io/Typing_Fast/" target="_blank">
+                <a href="https://vk.com/share.php?url=https://yarispb.github.io/Yaroslav-Portfolio" target="_blank">
                     <button type="button" class="btn btn-default navbar-btn navbar-right"> 
                         <i class="fa fa-vk" ></i>
                         Поделиться ВК
@@ -41,11 +41,10 @@
   <div class="row well" >
             <div class="col-xs-9 ">
                 
-                <h1>Портфолио Ярослава Паславского</h1>
+                <h1>Портфолио: Ярослав Паславский</h1>
                 <hr>
-                <p id="meId">Добро пожаловать на мою страничку достижений в области программирования.</p>
-                <p id="meId">Я начал самостоятельно изучать программирование в ноябре 2016 года.</p>
-                <p id="meId">Здесь я выкладываю свои работы и достижения.</p>
+                <p id="meId">Добро пожаловать на мою страничку-портфолио. Здесь я выкладываю свои работы с комментариями.</p>
+                <p id="meId">Я начал самостоятельно изучать программирование в ноябре 2016 года. На данный момент я работаю в JavaScript, HTML5, CSS, Python, Git и продолжаю обучению.</p>
                 <p id="meId">Приятного просмотра!</p>
               </div>
             <div class="col-xs-3">
@@ -57,6 +56,13 @@
          <h2>Актуально:</h2><hr>
          
          <ul>
+			                 <li>
+                    Я продолжаю свое обучение на курсе 
+								 <a href="https://www.udacity.com/course/programming-foundations-with-python--ud036" target="_blank">
+								 Programming foundations with Python 
+								 </a>
+								 на Udacity.com.
+                </li>
                 <li>
                     Прошел курс 
                     <a href="https://www.udacity.com/course/how-to-use-git-and-github--ud775" target="_blank">
@@ -87,9 +93,7 @@
                         Январь 2017
                     </span> 
                 </li>
-                <li>
-                    Я продолжаю свое обучение. Осваиваю Python, Back End, базы данных. 
-                </li>
+
 
                 </ul>
      </div>
@@ -185,16 +189,16 @@
 					Крестики-нолики
 				</h2>
 			</div>
-			<a  href="http://codepen.io/YariSPB/pen/qRjRPW" target="_blank">
-				<img class="img-rounded img-responsive"  src="images/simon.jpg" alt="Typing lesson">
+			<a  href="http://codepen.io/YariSPB/pen/KaNQyx" target="_blank">
+				<img class="img-rounded img-responsive"  src="images/tictactoe.jpg" alt="Typing lesson">
 			</a>
 			<div class="caption">
 				<p>
 					<span id="thumby"> 
 						Ссылка: 
 					</span>
-					<a  href="http://codepen.io/YariSPB/pen/qRjRPW" target="_blank">
-					Игра Simon
+					<a  href="http://codepen.io/YariSPB/pen/KaNQyx" target="_blank">
+					Игра Крестики-нолики
 					</a> 
 				</p>
 				<p>
@@ -204,14 +208,140 @@
 					HTML5, CSS, Javascript, Bootstrap, Codepen.
 				</p>
 				<p>
-					Simon - это настольня игра из 80'х. Нужно повторять последовательность кнопок за устройством, с каждым уровнем прибаляется +1 кнопка, максимальный уровень из 20 кнопок. Если ошибаешься, то игра повторяет для вас последовательность, если нажимаешь последовательность правильно, то переходишь на следующий уровень. В Strict Mode при совершении одной ошибки придется играть всю игру сначала.  
+					Крестики-нолики - это разрешенная математическая задача. В данной данной версии игры вы играете против компьютера. Игра запрограммирована так, что ваши шаги проанализированны и программа не даст вам выиграть, если вы ходите Крестиками. Если вы ходите Ноликами, то есть возможность выиграть, если вы знаете, как правильно играть.  
 				</p>
 				<p>
-					Сама игра, изделие, выглядит по-другому, поэтому нужно было придумать интерпретацию внешнего вида и функционала при помощи HTML5. Также я добавил несколько цветовых и звуковых эффектов, как в оригинальной игре.
-					Стилизовал в стиле Ретро, шрифты в том числе.
-				</p>
+					Программа делает шаги по стандартному алгоритму: 
+						</p>
+					<ol>
+						<li>
+							Проверяет возможность поставить 3ий крестик и выиграть. Если нет, следующий шаг.
+						</li>
+												<li>
+							Изучает возможность выигриша противника, если такая угроза есть, ставит блок. Если угрозы нет, следующий шаг.
+						</li>
+																		<li>
+							Ищет незанятые линии и диагонали, в которые можно сыграть, чтобы потом выиграть. Если таких нет, следующий шаг.
+						</li>
+						<li>
+							Ходит в случайном порядке. 
+						</li>
+				</ol>
+				<p>Для первых шагов я прописал особый механизм, так как именно в первые шаги определяется стратегия игры, которую нельзя задать при помощи вышеописанного механизма. </p>
+
+			
 				<p id="postDate">
-					Дата: 14 февраля 2017
+					Дата: 10 февраля 2017
+				</p>
+			</div>
+      	</div>     
+     </div> <!-- row end-->
+	 
+	 	 	 <div class="row ">  
+        <div class="thumbnail">
+			<div class="caption">
+				<h2>
+					Pomodoro таймер
+				</h2>
+			</div>
+			<a  href="http://codepen.io/YariSPB/pen/RKRQey" target="_blank">
+				<img class="img-rounded img-responsive"  src="images/pomodoro.jpg" alt="Typing lesson">
+			</a>
+			<div class="caption">
+				<p>
+					<span id="thumby"> 
+						Ссылка: 
+					</span>
+					<a  href="http://codepen.io/YariSPB/pen/RKRQey" target="_blank">
+					Таймер Pomodoro
+					</a> 
+				</p>
+				<p>
+					<span id="thumby"> 
+						Ресурсы:
+					</span>
+					HTML5, CSS, Javascript, Bootstrap, Codepen.
+				</p>
+				<p>
+					Таймер Pomodoro делит ваше время на рабочее и на время отдыха. Например, за каждыми 30 мин работы следует 5 мин перерыва. Таймер работает циклически. 
+				<p>
+					В основании таймера лежит повторение цикла работа-отдых. Эти временные интервали можно настраивать. 
+						</p>			
+				<p id="postDate">
+					Дата: 1 февраля 2017
+				</p>
+			</div>
+      	</div>     
+     </div> <!-- row end-->
+	 
+	 	 	 	 <div class="row ">  
+        <div class="thumbnail">
+			<div class="caption">
+				<h2>
+					Калькулятор
+				</h2>
+			</div>
+			<a  href="http://codepen.io/YariSPB/pen/JbVBmq" target="_blank">
+				<img class="img-rounded img-responsive"  src="images/calculator.jpg" alt="Typing lesson">
+			</a>
+			<div class="caption">
+				<p>
+					<span id="thumby"> 
+						Ссылка: 
+					</span>
+					<a  href="http://codepen.io/YariSPB/pen/JbVBmq" target="_blank">
+					калькулятор
+					</a> 
+				</p>
+				<p>
+					<span id="thumby"> 
+						Ресурсы:
+					</span>
+					HTML5, CSS, Javascript, Bootstrap, Codepen.
+				</p>
+				<p>
+					Для этого задания я решил сделать калькулятор, который показывает историю операций со скроллингом, чтобы можно было отслеживать детально все расчеты.  
+			
+				<p id="postDate">
+					Дата: 23 января 2017
+				</p>
+			</div>
+      	</div>     
+     </div> <!-- row end-->
+	 
+	 	 	 	 	 <div class="row ">  
+        <div class="thumbnail">
+			<div class="caption">
+				<h2>
+					Поисковик страниц Википедии(только eng запросы)
+				</h2>
+			</div>
+			<a  href="http://codepen.io/YariSPB/pen/dOEovJ" target="_blank">
+				<img class="img-rounded img-responsive"  src="images/wikiped.jpg" alt="Typing lesson">
+			</a>
+			<div class="caption">
+				<p>
+					<span id="thumby"> 
+						Ссылка: 
+					</span>
+					<a  href="http://codepen.io/YariSPB/pen/dOEovJ" target="_blank">
+					Поисковик страниц Википедии
+					</a> 
+				</p>
+				<p>
+					<span id="thumby"> 
+						Ресурсы:
+					</span>
+					HTML5, CSS, Javascript, Bootstrap, Codepen, Wikipedia Api
+				</p>
+				<p>
+Поисковик находит статьи Википедии по вашему запросу. Это задание используте Api, который возвращает JSON с данными поиска. 
+			</p>
+								<p>
+В процессе тестирования возникла проблема, так как некоторые найденные результаты не выводились на экран. Тестирование в Console Chrome показало, что программа запрашивала картинки статей, но все статьи Википедии имеют картинку, после чего ошибка было исправлена. 
+			</p>
+				<p id="postDate">
+					Дата: 12 января 2017
 				</p>
 			</div>
       	</div>     
