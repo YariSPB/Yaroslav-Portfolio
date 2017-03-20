@@ -8,8 +8,11 @@ body {
 	background-size: cover;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Ledger', serif;
+}
+h3{
+	margin-top: -5px;
 }
 #meId {
    font-size: 16px; 
