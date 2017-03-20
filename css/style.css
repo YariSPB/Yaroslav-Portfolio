@@ -28,14 +28,12 @@ li{
     font-family: 'Merriweather', serif;  
 }
 .container{
-width:960px;
-text-align: center; 
-background: white;
-	
-
+	width:960px;
+	text-align: center; 
+	background: white;
 }
 .conMain{
-box-shadow: 5px 5px 5px #888888;	
+	box-shadow: 5px 5px 5px #888888;	
 }
 .navbar{
    #width:960px;
@@ -48,8 +46,8 @@ box-shadow: 5px 5px 5px #888888;
   #margin: 20px 0px 10px 0px;
 }
 .thumbnail{
-margin-left: 10px;
-margin-right: 10px
+	margin-left: 10px;
+	margin-right: 10px
 }
 .thumbnail img{
     border: 2px solid grey;
@@ -73,5 +71,5 @@ margin-right: 10px
     color: darkgrey;
 }
 #innerImg{
-width: 700px;
+	width: 700px;
 }
