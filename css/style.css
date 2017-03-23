@@ -75,3 +75,9 @@ li{
 #innerImg{
 	width: 700px;
 }
+.wellLast p{
+	text-align: center !important;
+}
+.btn-group{
+	margin: 5px
+}
