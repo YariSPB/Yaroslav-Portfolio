@@ -84,7 +84,7 @@ li{
 .obrwell{
 	background: #e6f7ff
 }
-.thum1,{
+.thum1{
 	background: #e6f7ff;
 }
 .thum2{
@@ -92,4 +92,7 @@ li{
 }
 .thum3{
 	background: #e6ffe6
+}
+.wellFirst{
+	background: #e6f7ff;
 }
