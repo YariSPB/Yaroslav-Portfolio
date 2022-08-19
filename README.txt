@@ -1,3 +1,4 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/YariSPB/pen/qqJXjJ.
+Добро пожаловать на мою личную страничку в которой я указал важные профессиональные события в моей жизни.
+
 
  
