@@ -1,4 +1,4 @@
-Добро пожаловать на мою личную страничку в которой я указал важные профессиональные события в моей жизни.
-
+This is my personal website.
+Here I included relevant experience, education, and projects.
 
  
